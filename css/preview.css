@@ -1,0 +1,13 @@
+.preview {
+  padding-top: 36px;
+  max-width: 52%; }
+
+.preview__title {
+  color: #fff; }
+
+.preview__subtitle {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 17px;
+  padding-bottom: 39px; }

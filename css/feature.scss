@@ -1,0 +1,31 @@
+.feature__header {
+    display: flex;
+    justify-content: center;
+}
+
+.feature__ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 126px;
+    background: #F2F5F4;
+    border-radius: 50%;
+}
+
+.feature__title {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 19px;
+}
+
+.feature__text {
+    color: $gray-color;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}

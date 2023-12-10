@@ -1,0 +1,27 @@
+.reviews__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 58px 80px 67px; }
+
+.reviews__title {
+  text-align: center;
+  padding-bottom: 14px; }
+
+.reviews__user-list {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.reviews__user-item {
+  margin-right: 6px; }
+  .reviews__user-item:last-child {
+    margin-right: 0; }
+
+.reviews__user-icon {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%; }
+
+.reviews__user-link:hover .reviews__user-icon {
+  border: 6px solid #FEDB3F; }

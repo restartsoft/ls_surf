@@ -1,0 +1,40 @@
+
+.review {
+    display: flex;
+    background: $lightgreen-color;
+    padding: 42px;
+}
+
+.review__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 39px;
+    padding-right: 90px;
+}
+
+.review__title {
+    color: $black-color;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.review__text {
+    color: $gray-color;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10px;
+    padding-left: 2px;
+}
+
+.review__user {
+    color: $black-color;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 29px;
+    padding-left: 2px;
+}

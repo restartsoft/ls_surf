@@ -1,0 +1,25 @@
+$containerWidth: 1100px;
+$containerHeight: 652px;
+
+$black-color: #292929;
+$gray-color: #666;
+$lightgreen-color: #F8FAF9;
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import "./global.scss";
+@import "./header.scss";
+@import "./menu.scss";
+@import "./contacts.scss";
+@import "./preview.scss";
+@import "./btn.scss";
+@import "./marketing.scss";
+@import "./feature.scss";
+@import "./features.scss";
+@import "./review.scss";
+@import "./reviews.scss";
+@import "./order.scss";
+@import "./form.scss";
+
+
+
