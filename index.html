@@ -129,7 +129,10 @@
                     <img src="./img/avatar.png" alt="avatar" class="review__avatar">
                     <div class="review__content">
                         <h3 class="review__title">Лучший дизайн</h3>
-                        <p class="review__text">Я увидела доски на сайте и влюбилась в их дизайн. К летнему сезону я заказала себе доску в SurfBoard. Дизайнер команды - волшебница! Она учла все мои предпочтения и комментарии. В итоге получился прекрасный дизайн. А я катаюсь на доске, которая мне нравится&#41;</p>
+                        <p class="review__text">Я увидела доски на сайте и влюбилась в их дизайн. К летнему сезону я
+                            заказала себе доску в SurfBoard. Дизайнер команды - волшебница! Она учла все мои
+                            предпочтения и комментарии. В итоге получился прекрасный дизайн. А я катаюсь на доске,
+                            которая мне нравится&#41;</p>
                         <div class="review__user">Ольга Макарова</div>
                     </div>
                 </div>
@@ -200,16 +203,35 @@
                                 <textarea name="" id="" class="form__input-text form__input-textarea"></textarea>
                             </div>
                         </div>
-                        <div class="form__row">
+                        <div class="form__row-left-position">
                             <label>
-                                <input type="radio" name="payment" class="form__input-radio">
-                                <div class="form__payment-type"></div>
+                                <div class="form__radiobutton">
+                                    <input type="radio" name="payment" class="form__input-radio">
+                                    <div class="form__radiobutton-ellipse"></div>
+                                    <div class="form__radiobutton-text">Оплата наличными</div>
+                                </div>
                             </label>
                             <label>
-                                <input type="radio" name="payment" class="form__input-radio">
-                                <div class="form__payment-type"></div>
+                                <div class="form__radiobutton">
+                                    <input type="radio" name="payment" class="form__input-radio">
+                                    <div class="form__radiobutton-ellipse"></div>
+                                    <div class="form__radiobutton-text">Оплата картой</div>
+                                </div>
                             </label>
-                        </div>    
+                        </div>
+                        <div class="form__row-left-position">
+                            <label>
+                                <div class="form__checkbox">
+                                    <input type="checkbox" name="callback" class="form__input-checkbox">
+                                    <div class="form__checkbox-square"></div>
+                                    <div class="form__checkbox-text">Не перезванивать</div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form__buttons">
+                            <button type="submit" class="btn btn-form">Заказать</button>
+                            <button type="reset" class="btn-reset">Очистить</button>
+                        </div>
                     </div>
                 </form>
             </div>

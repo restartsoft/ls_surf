@@ -1,6 +1,9 @@
 .form {
     display: flex;
     color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .form__left-column {
@@ -23,6 +26,12 @@
     &:last-child {
         margin-bottom: 0;
     }
+}
+
+.form__row-left-position {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 19px;
 }
 
 .form__element-full {
@@ -51,9 +60,6 @@
 }
 
 .form__element-name {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .form__input-text {
@@ -65,8 +71,6 @@
     color: #000;
     font-family: Open Sans;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 20px;
 
     &:focus {
@@ -79,9 +83,77 @@
     resize: none;
 }
 
-.form__payment-type {
+.form__radiobutton {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 19px;
+}
+
+.form__input-radio {
+    display: none;
+}
+
+.form__input-radio:checked ~ .form__radiobutton-ellipse::after {
+    display: block;  
+}
+
+.form__radiobutton-ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25px;
     height: 25px;
     background: #fff;
     border-radius: 50%;
+    margin-right: 10px;
+
+    &::after {
+        content: "";
+        display: none;
+        width: 13px;
+        height: 13px;
+        background: #FEDB3F;
+        border-radius: 50%;
+    }
+}
+
+.form__checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form__input-checkbox {
+    display: none;
+}
+
+.form__input-checkbox:checked ~ .form__checkbox-square::after {
+    display: block;
+}
+
+.form__checkbox-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 4px;
+    margin-right: 12px;
+
+    &::after {
+        display: none;
+        content: "";
+        background: url("../img/checkmark.png");
+        width: 10px;
+        height: 8px;
+        overflow: hidden;
+    }
+}
+
+.form__buttons {
+    display: flex;
+    margin-left: -10px;
+    padding-top: 46px;
 }

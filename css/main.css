@@ -111,13 +111,30 @@ address {
   height: 60px;
   background: #fedb3f;
   color: #000;
+  border: none;
   border-radius: 100px;
   text-align: center;
   font-size: 16px;
   font-weight: 800;
   line-height: 18px;
   text-transform: uppercase;
+  cursor: pointer;
   padding: 23px 41px; }
+
+.btn-form {
+  margin-right: 16px; }
+
+.btn-reset {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer; }
 
 .marketing__list {
   display: flex; }
@@ -280,7 +297,7 @@ address {
 .order__container {
   display: flex;
   flex-direction: column;
-  background: lightgray 50% / cover no-repeat;
+  background: url(../img/form.png) lightgray 50%/cover no-repeat;
   padding: 62px 82px; }
 
 .order__title {
@@ -289,7 +306,10 @@ address {
 
 .form {
   display: flex;
-  color: #fff; }
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal; }
 
 .form__left-column {
   width: 50%;
@@ -308,6 +328,11 @@ address {
   .form__row:last-child {
     margin-bottom: 0; }
 
+.form__row-left-position {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 19px; }
+
 .form__element-full {
   width: 100%; }
   .form__element-full .form__input-text {
@@ -324,11 +349,6 @@ address {
     width: 100%;
     text-align: center; }
 
-.form__element-name {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: normal; }
-
 .form__input-text {
   height: 58px;
   border: 3px solid transparent;
@@ -337,8 +357,6 @@ address {
   color: #000;
   font-family: Open Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 20px; }
   .form__input-text:focus {
     border-color: #FEDB3F; }
@@ -347,10 +365,66 @@ address {
   height: 152px;
   resize: none; }
 
-.form__payment-type {
+.form__radiobutton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 19px; }
+
+.form__input-radio {
+  display: none; }
+
+.form__input-radio:checked ~ .form__radiobutton-ellipse::after {
+  display: block; }
+
+.form__radiobutton-ellipse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 25px;
   height: 25px;
   background: #fff;
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin-right: 10px; }
+  .form__radiobutton-ellipse::after {
+    content: "";
+    display: none;
+    width: 13px;
+    height: 13px;
+    background: #FEDB3F;
+    border-radius: 50%; }
+
+.form__checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer; }
+
+.form__input-checkbox {
+  display: none; }
+
+.form__input-checkbox:checked ~ .form__checkbox-square::after {
+  display: block; }
+
+.form__checkbox-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 4px;
+  margin-right: 12px; }
+  .form__checkbox-square::after {
+    display: none;
+    content: "";
+    background: url("../img/checkmark.png");
+    width: 10px;
+    height: 8px;
+    overflow: hidden; }
+
+.form__buttons {
+  display: flex;
+  margin-left: -10px;
+  padding-top: 46px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,9 @@
+.order__container {
+  display: flex;
+  flex-direction: column;
+  background: url(../img/form.png) lightgray 50%/cover no-repeat;
+  padding: 62px 82px; }
+
+.order__title {
+  text-align: center;
+  color: #fff; }

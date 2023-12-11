@@ -4,12 +4,31 @@
     height: 60px;
     background: #fedb3f;
     color: #000;
+    border: none;
     border-radius: 100px;
     text-align: center;
     font-size: 16px;
     font-weight: 800;
     line-height: 18px;
     text-transform: uppercase;
+    cursor: pointer;
 
     padding: 23px 41px;
+}
+
+.btn-form {
+    margin-right: 16px;
+}
+
+.btn-reset {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
 }
