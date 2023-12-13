@@ -1,5 +1,9 @@
 .order {
-  background: url(../img/form.png) lightgray 50%/cover no-repeat; }
+  background-image: url(../img/form.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightgrey 50%; }
 
 .order__container {
   display: flex;

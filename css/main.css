@@ -40,7 +40,11 @@ address {
   outline-offset: 0; }
 
 .main {
-  background: url(../img/main.png) lightgray 0px -142.216px/110.909% 124.76% no-repeat;
+  background-image: url(../img/main.png);
+  background-position: center;
+  background-size: cover;
+  background-color: lightgray;
+  background-repeat: no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
 
 .container {
@@ -299,7 +303,11 @@ address {
   border: 6px solid #FEDB3F; }
 
 .order {
-  background: url(../img/form.png) lightgray 50%/cover no-repeat; }
+  background-image: url(../img/form.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightgrey 50%; }
 
 .order__container {
   display: flex;
