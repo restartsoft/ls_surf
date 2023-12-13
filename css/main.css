@@ -39,6 +39,10 @@ address {
   outline: 0;
   outline-offset: 0; }
 
+.main {
+  background: url(../img/main.png) lightgray 0px -142.216px/110.909% 124.76% no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+
 .container {
   margin: 0 auto;
   width: 1100px;
@@ -48,9 +52,7 @@ address {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url(../img/main.png) lightgray no-repeat;
   color: #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 24px 80px 64px; }
 
 .surf-title {
@@ -296,10 +298,12 @@ address {
 .reviews__user-link:hover .reviews__user-icon {
   border: 6px solid #FEDB3F; }
 
+.order {
+  background: url(../img/form.png) lightgray 50%/cover no-repeat; }
+
 .order__container {
   display: flex;
   flex-direction: column;
-  background: url(../img/form.png) lightgray 50%/cover no-repeat;
   padding: 62px 82px; }
 
 .order__title {
