@@ -1,0 +1,22 @@
+.marketing__list {
+  display: flex; }
+
+.marketing__item {
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-right: 30px; }
+  .marketing__item:last-child {
+    margin-right: 0px; }
+
+.marketing__logo {
+  width: 41px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 11px; }
+
+.marketing__text {
+  max-width: 90px; }

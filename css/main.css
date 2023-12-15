@@ -50,7 +50,7 @@ address {
 .container {
   margin: 0 auto;
   width: 1100px;
-  height: 652px; }
+  height: 100vh; }
 
 .main__container {
   display: flex;
@@ -142,7 +142,7 @@ address {
   line-height: normal;
   cursor: pointer; }
   .btn-reset:hover {
-    color: #FEDB3F; }
+    color: #fedb3f; }
 
 .marketing__list {
   display: flex; }
@@ -241,7 +241,7 @@ address {
 
 .review {
   display: flex;
-  background: #F8FAF9;
+  background: #f8faf9;
   padding: 42px; }
 
 .review__content {
@@ -300,7 +300,7 @@ address {
   border-radius: 50%; }
 
 .reviews__user-link:hover .reviews__user-icon {
-  border: 6px solid #FEDB3F; }
+  border: 6px solid #fedb3f; }
 
 .order {
   background-image: url(../img/form.png);
@@ -373,7 +373,7 @@ address {
   font-size: 14px;
   line-height: 20px; }
   .form__input-text:focus {
-    border-color: #FEDB3F; }
+    border-color: #fedb3f; }
 
 .form__input-textarea {
   height: 152px;
@@ -405,7 +405,7 @@ address {
     display: none;
     width: 13px;
     height: 13px;
-    background: #FEDB3F;
+    background: #fedb3f;
     border-radius: 50%; }
 
 .form__checkbox {
@@ -440,5 +440,3 @@ address {
   display: flex;
   margin-left: -10px;
   padding-top: 46px; }
-
-/*# sourceMappingURL=main.css.map */

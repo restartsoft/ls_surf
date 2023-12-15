@@ -1,3 +1,4 @@
+@import "./var.scss";
 
 .reviews__container {
     display: flex;
@@ -33,6 +34,6 @@
 
 .reviews__user-link:hover {
     .reviews__user-icon {
-        border: 6px solid #FEDB3F;
+        border: 6px solid $btn-color;
     }
 }

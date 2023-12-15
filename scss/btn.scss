@@ -1,8 +1,10 @@
+@import "./var.scss";
+
 .btn {
     display: block;
     width: 156px;
     height: 60px;
-    background: #fedb3f;
+    background: $btn-color;
     color: #000;
     border: none;
     border-radius: 100px;
@@ -33,6 +35,6 @@
     cursor: pointer;
 
     &:hover {
-        color: #FEDB3F;
+        color: $btn-color;
     }
 }

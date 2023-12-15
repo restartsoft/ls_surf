@@ -1,3 +1,5 @@
+@import "./var.scss";
+
 .form {
     display: flex;
     color: #fff;
@@ -74,7 +76,7 @@
     line-height: 20px;
 
     &:focus {
-        border-color: #FEDB3F;
+        border-color: $btn-color;
     }
 }
 
@@ -113,7 +115,7 @@
         display: none;
         width: 13px;
         height: 13px;
-        background: #FEDB3F;
+        background: $btn-color;
         border-radius: 50%;
     }
 }

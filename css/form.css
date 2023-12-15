@@ -53,7 +53,7 @@
   font-size: 14px;
   line-height: 20px; }
   .form__input-text:focus {
-    border-color: #FEDB3F; }
+    border-color: #fedb3f; }
 
 .form__input-textarea {
   height: 152px;
@@ -85,7 +85,7 @@
     display: none;
     width: 13px;
     height: 13px;
-    background: #FEDB3F;
+    background: #fedb3f;
     border-radius: 50%; }
 
 .form__checkbox {
