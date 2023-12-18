@@ -5,12 +5,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: lightgrey 50%;
+
+    @include tablets {
+        background-image: url(../img/form_tablets.png);
+    }
 }
 
 .order__container {
     display: flex;
     flex-direction: column;
-    padding: 62px 82px;
+    justify-content: center;
 }
 
 .order__title {

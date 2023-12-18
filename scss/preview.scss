@@ -1,16 +1,34 @@
 .preview {
-    padding-top: 36px;
-    max-width: 52%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: rem(36px);
+    width: 52%;
+
+    @include tablets {
+        padding: rem(50px);
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .preview__title {
     color: #fff;
+
+    @include tablets {
+        text-align: center;
+    }
 }
 
 .preview__subtitle {
-    font-size: 21px;
+    font-size: rem(21px);
     font-weight: 400;
     line-height: normal;
-    padding-top: 17px;
-    padding-bottom: 39px;
+    padding-top: rem(17px);
+    padding-bottom: rem(39px);
 }

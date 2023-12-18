@@ -5,9 +5,7 @@
 }
 
 .features__container {
-    display: flex;
-    flex-direction: column;
-    padding: 103px 78px;
+    justify-content: center;
 }
 
 .features__header {
@@ -17,10 +15,10 @@
 }
 
 .features__header-text {
-    padding: 17px 0 50px;
+    padding: rem(17px) 0 rem(50px);
     max-width: 46%;
     color: $gray-color;
-    font-size: 18px;
+    font-size: $baseFontSize;
     font-weight: 400;
     line-height: normal;
     text-align: center;
@@ -32,7 +30,7 @@
 }
 
 .features__item {
-    width: calc(100% / 3 - 35px);
+    width: calc(100% / 3 - rem(35px));
 
     &:nth-child(2) {
         position: relative;
@@ -40,21 +38,29 @@
         &::before {
             position: absolute;
             content: "";
-            width: 67px;
-            height: 21px;
+            width: rem(67px);
+            height: rem(21px);
             background: url("../img/2204.png");
-            left: -58px;
-            top: 58px;
+            left: rem(-58px);
+            top: rem(58px);
+
+            @include tablets {
+                display: none;
+            }
         }
 
         &::after {
             position: absolute;
             content: "";
-            width: 67px;
-            height: 21px;
+            width: rem(67px);
+            height: rem(21px);
             background: url("../img/2203.png");
-            right: -58px;
-            top: 58px;
+            right: rem(-58px);
+            top: rem(58px);
+
+            @include tablets {
+                display: none;
+            }
         }
     }
 }

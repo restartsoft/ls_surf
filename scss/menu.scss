@@ -1,15 +1,24 @@
+@import "./var.scss";
+
+.menu {
+    padding-top: rem(4px);
+    margin: 0 30px;
+}
+
 .menu__list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu__item {
-    margin-right: 22px;
-    font-size: 18px;
+    white-space: nowrap;
+    margin-right: rem(22px);
+    font-size: $baseFontSize;
     font-weight: 700;
-    line-height: 30px;
+    line-height: rem(30px);
 
     &:last-child {
-        margin-right: 0px;
+        margin-right: rem(0px);
     }
 }

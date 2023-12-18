@@ -1,5 +1,36 @@
 .header {
+    
+    color: #fff;
+
+    @include tablets {
+        background: #1968B1;
+    }
+}
+
+.header__container {
+    margin: 0 auto;
+    width: 95%;
+    max-width: $containerWidth;
+
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: rem(24px) 0;
+
+    .logo {
+        flex-shrink: 0;
+    }
+
+    .contacts {
+        padding-top: rem(10px);
+    }
+
+    @include tablets {
+        .menu {
+            display: none;
+        }
+        
+        .contacts {
+            display: none;
+        }
+    }
 }

@@ -2,24 +2,24 @@
 
 .btn {
     display: block;
-    width: 156px;
-    height: 60px;
+    width: rem(156px);
+    height: rem(60px);
     background: $btn-color;
     color: #000;
     border: none;
-    border-radius: 100px;
+    border-radius: rem(100px);
     text-align: center;
-    font-size: 16px;
+    font-size: rem(16px);
     font-weight: 800;
-    line-height: 18px;
+    line-height: rem(18px);
     text-transform: uppercase;
     cursor: pointer;
 
-    padding: 23px 41px;
+    padding: rem(23px) rem(41px);
 }
 
 .btn-form {
-    margin-right: 16px;
+    margin-right: rem(16px);
 }
 
 .btn-reset {
@@ -28,7 +28,7 @@
     outline: none;
     box-shadow: none;
     color: #fff;
-    font-size: 18px;
+    font-size: $baseFontSize;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

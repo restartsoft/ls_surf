@@ -1,13 +1,14 @@
 .contacts__phone {
   display: flex;
   align-items: center;
-  font-size: 22px;
+  font-size: rem(22px);
   font-weight: 700;
-  line-height: 18px;
-  padding-bottom: 2px; }
+  line-height: rem(18px);
+  white-space: nowrap;
+  padding-bottom: rem(2px); }
   .contacts__phone::before {
     content: "";
     background: url(../img/phone.png);
-    width: 13px;
-    height: 15px;
-    margin-right: 5px; }
+    width: rem(13px);
+    height: rem(15px);
+    margin-right: rem(5px); }

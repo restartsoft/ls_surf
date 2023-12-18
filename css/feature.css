@@ -6,18 +6,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 126px;
-  height: 126px;
+  width: rem(126px);
+  height: rem(126px);
   background: #F2F5F4;
   border-radius: 50%; }
 
 .feature__title {
-  font-size: 27px;
+  font-size: rem(27px);
   font-weight: 700;
   line-height: normal;
   text-align: center;
-  margin-top: 21px;
-  margin-bottom: 19px; }
+  margin-top: rem(21px);
+  margin-bottom: rem(19px); }
 
 .feature__text {
   color: #666;
