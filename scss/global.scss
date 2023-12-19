@@ -104,4 +104,9 @@ section {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+
+    @include phones {
+        font-size: rem(40px);
+        line-height: rem(36px);
+    }
 }

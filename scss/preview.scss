@@ -24,10 +24,6 @@
 
 .preview__title {
     color: #fff;
-
-    @include phones {
-        font-size: rem(44px);
-    }
 }
 
 .preview__subtitle {
