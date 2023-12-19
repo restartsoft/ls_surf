@@ -14,14 +14,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+    }
+
+    @include phones {
+        padding: 0;
     }
 }
 
 .preview__title {
     color: #fff;
 
-    @include tablets {
-        text-align: center;
+    @include phones {
+        font-size: rem(44px);
     }
 }
 

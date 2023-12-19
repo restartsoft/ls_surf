@@ -1,50 +1,28 @@
 /*
-Error: Undefined mixin 'tablets'.
-        on line 47 of D:\restartsoft\frontend\web\hw1\scss\features.scss, in `tablets'
-        from line 47 of D:\restartsoft\frontend\web\hw1\scss\features.scss
+Error: Undefined mixin 'phones'.
+        on line 26 of D:\restartsoft\frontend\web\hw1\scss\features.scss, in `phones'
+        from line 26 of D:\restartsoft\frontend\web\hw1\scss\features.scss
 
-42:             height: rem(21px);
-43:             background: url("../img/2204.png");
-44:             left: rem(-58px);
-45:             top: rem(58px);
-46: 
-47:             @include tablets {
-48:                 display: none;
-49:             }
-50:         }
-51: 
-52:         &::after {
+21:     color: $gray-color;
+22:     font-size: $baseFontSize;
+23:     font-weight: 400;
+24:     line-height: normal;
+25: 
+26:     @include phones {
+27:         max-width: 95%;    
+28:     }
+29: }
+30: 
+31: .features__list {
 
 Backtrace:
-D:\restartsoft\frontend\web\hw1\scss\features.scss:47:in `tablets'
-D:\restartsoft\frontend\web\hw1\scss\features.scss:47
+D:\restartsoft\frontend\web\hw1\scss\features.scss:26:in `phones'
+D:\restartsoft\frontend\web\hw1\scss\features.scss:26
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -87,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 47 of D:\restartsoft\frontend\web\hw1\scss\features.scss, in `tablets'\A         from line 47 of D:\restartsoft\frontend\web\hw1\scss\features.scss\A \A 42:             height: rem(21px);\A 43:             background: url(\"../img/2204.png\");\A 44:             left: rem(-58px);\A 45:             top: rem(58px);\A 46: \A 47:             @include tablets {\A 48:                 display: none;\A 49:             }\A 50:         }\A 51: \A 52:         &::after {"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 26 of D:\restartsoft\frontend\web\hw1\scss\features.scss, in `phones'\A         from line 26 of D:\restartsoft\frontend\web\hw1\scss\features.scss\A \A 21:     color: $gray-color;\A 22:     font-size: $baseFontSize;\A 23:     font-weight: 400;\A 24:     line-height: normal;\A 25: \A 26:     @include phones {\A 27:         max-width: 95%;    \A 28:     }\A 29: }\A 30: \A 31: .features__list {"; }

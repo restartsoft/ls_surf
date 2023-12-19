@@ -22,6 +22,10 @@
         width: 80%;
         padding-right: 0;
     }
+
+    @include phones {
+        width: 100%;
+    }
 }
 
 .form__right-column {
@@ -33,6 +37,10 @@
         width: 80%;
         padding-top: rem(13px);
         padding-left: 0;
+    }
+
+    @include phones {
+        width: 100%;
     }
 }
 
@@ -50,6 +58,10 @@
     display: flex;
     justify-content: flex-start;
     padding-top: rem(19px);
+
+    @include phones {
+        justify-content: center;
+    }
 }
 
 .form__element-full {
@@ -94,11 +106,19 @@
     &:focus {
         border-color: $btn-color;
     }
+
+    @include phones {
+        height: rem(36px);
+    }
 }
 
 .form__input-textarea {
     height: rem(152px);
     resize: none;
+
+    @include phones {
+        height: rem(82px);
+    }
 }
 
 .form__radiobutton {

@@ -57,12 +57,15 @@ section {
   background-image: url(../img/main.png);
   background-position: center;
   background-size: cover;
-  background-color: lightgray;
+  background-color: #1968b1;
   background-repeat: no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
   @media screen and (max-width: 768px) {
     .main {
       background-image: url(../img/main_tablets.png); } }
+  @media screen and (max-width: 480px) {
+    .main {
+      background-image: url(../img/main_phones.png); } }
 
 .container {
   margin: 0 auto;
@@ -87,7 +90,7 @@ section {
   color: #fff; }
   @media screen and (max-width: 768px) {
     .header {
-      background: #1968B1; } }
+      background: #1968b1; } }
 
 .header__container {
   margin: 0 auto;
@@ -154,13 +157,17 @@ section {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center; } }
+      align-items: center;
+      text-align: center; } }
+  @media screen and (max-width: 480px) {
+    .preview {
+      padding: 0; } }
 
 .preview__title {
   color: #fff; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 480px) {
     .preview__title {
-      text-align: center; } }
+      font-size: 2.4444444444rem; } }
 
 .preview__subtitle {
   font-size: 1.1666666667rem;
@@ -231,9 +238,16 @@ section {
 .marketing__text {
   max-width: 5rem; }
 
-.feature__header {
+.feature {
   display: flex;
-  justify-content: center; }
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (max-width: 480px) {
+    .feature {
+      flex-direction: row;
+      margin-bottom: 31px; }
+      .feature:last-child {
+        margin-bottom: 0; } }
 
 .feature__ellipse {
   display: flex;
@@ -244,20 +258,29 @@ section {
   background: #F2F5F4;
   border-radius: 50%; }
 
+.feature__content {
+  text-align: center; }
+  @media screen and (max-width: 480px) {
+    .feature__content {
+      text-align: left;
+      padding: 9px 12px; } }
+
 .feature__title {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: normal;
-  text-align: center;
   margin-top: 1.1666666667rem;
   margin-bottom: 1.0555555556rem; }
+  @media screen and (max-width: 480px) {
+    .feature__title {
+      margin-top: 0;
+      margin-bottom: 10px; } }
 
 .feature__text {
   color: #666;
   font-size: 18px;
   font-weight: 300;
-  line-height: normal;
-  text-align: center; }
+  line-height: normal; }
 
 .features__container {
   justify-content: center; }
@@ -265,7 +288,8 @@ section {
 .features__header {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
 
 .features__header-text {
   padding: 0.9444444444rem 0 2.7777777778rem;
@@ -273,15 +297,23 @@ section {
   color: #666;
   font-size: 18px;
   font-weight: 400;
-  line-height: normal;
-  text-align: center; }
+  line-height: normal; }
+  @media screen and (max-width: 480px) {
+    .features__header-text {
+      max-width: 95%; } }
 
 .features__list {
   display: flex;
   justify-content: space-between; }
+  @media screen and (max-width: 480px) {
+    .features__list {
+      flex-direction: column; } }
 
 .features__item {
-  width: calc(100% / 3 - rem(35px)); }
+  width: 30%; }
+  @media screen and (max-width: 480px) {
+    .features__item {
+      width: 100%; } }
   .features__item:nth-child(2) {
     position: relative; }
     .features__item:nth-child(2)::before {
@@ -391,6 +423,10 @@ section {
   width: 4.1111111111rem;
   height: 4.1111111111rem;
   border-radius: 50%; }
+  @media screen and (max-width: 480px) {
+    .reviews__user-icon {
+      width: 3.5555555556rem;
+      height: 3.5555555556rem; } }
 
 .reviews__user-link:hover .reviews__user-icon {
   border: 0.3333333333rem solid #fedb3f; }
@@ -433,6 +469,9 @@ section {
     .form__left-column {
       width: 80%;
       padding-right: 0; } }
+  @media screen and (max-width: 480px) {
+    .form__left-column {
+      width: 100%; } }
 
 .form__right-column {
   width: 50%;
@@ -443,6 +482,9 @@ section {
       width: 80%;
       padding-top: 0.7222222222rem;
       padding-left: 0; } }
+  @media screen and (max-width: 480px) {
+    .form__right-column {
+      width: 100%; } }
 
 .form__row {
   display: flex;
@@ -455,6 +497,9 @@ section {
   display: flex;
   justify-content: flex-start;
   padding-top: 1.0555555556rem; }
+  @media screen and (max-width: 480px) {
+    .form__row-left-position {
+      justify-content: center; } }
 
 .form__element-full {
   width: 100%; }
@@ -483,10 +528,16 @@ section {
   line-height: 1.1111111111rem; }
   .form__input-text:focus {
     border-color: #fedb3f; }
+  @media screen and (max-width: 480px) {
+    .form__input-text {
+      height: 2rem; } }
 
 .form__input-textarea {
   height: 8.4444444444rem;
   resize: none; }
+  @media screen and (max-width: 480px) {
+    .form__input-textarea {
+      height: 4.5555555556rem; } }
 
 .form__radiobutton {
   display: flex;
