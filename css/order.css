@@ -11,9 +11,9 @@ Error: Undefined mixin 'tablets'.
 9:     @include tablets {
 10:         background-image: url(../img/form_tablets.png);
 11:     }
-12: }
-13: 
-14: .order__container {
+12: 
+13:     @include phones {
+14:         background-image: url(../img/form_phones.png);
 
 Backtrace:
 D:\restartsoft\frontend\web\hw1\scss\order.scss:9:in `tablets'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of D:\restartsoft\frontend\web\hw1\scss\order.scss, in `tablets'\A         from line 9 of D:\restartsoft\frontend\web\hw1\scss\order.scss\A \A 4:     background-position: center;\A 5:     background-size: cover;\A 6:     background-repeat: no-repeat;\A 7:     background-color: lightgrey 50%;\A 8: \A 9:     @include tablets {\A 10:         background-image: url(../img/form_tablets.png);\A 11:     }\A 12: }\A 13: \A 14: .order__container {"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of D:\restartsoft\frontend\web\hw1\scss\order.scss, in `tablets'\A         from line 9 of D:\restartsoft\frontend\web\hw1\scss\order.scss\A \A 4:     background-position: center;\A 5:     background-size: cover;\A 6:     background-repeat: no-repeat;\A 7:     background-color: lightgrey 50%;\A 8: \A 9:     @include tablets {\A 10:         background-image: url(../img/form_tablets.png);\A 11:     }\A 12: \A 13:     @include phones {\A 14:         background-image: url(../img/form_phones.png);"; }

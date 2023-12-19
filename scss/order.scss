@@ -9,6 +9,10 @@
     @include tablets {
         background-image: url(../img/form_tablets.png);
     }
+
+    @include phones {
+        background-image: url(../img/form_phones.png);
+    }
 }
 
 .order__container {

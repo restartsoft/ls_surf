@@ -440,6 +440,9 @@ section {
   @media screen and (max-width: 768px) {
     .order {
       background-image: url(../img/form_tablets.png); } }
+  @media screen and (max-width: 480px) {
+    .order {
+      background-image: url(../img/form_phones.png); } }
 
 .order__container {
   display: flex;
