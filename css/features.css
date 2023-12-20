@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 26 of D:\restartsoft\frontend\web\hw1\scss\features.scss, in `phones'
-        from line 26 of D:\restartsoft\frontend\web\hw1\scss\features.scss
+        on line 26 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\features.scss, in `phones'
+        from line 26 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\features.scss
 
 21:     color: $gray-color;
 22:     font-size: $baseFontSize;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'phones'.
 31: .features__list {
 
 Backtrace:
-D:\restartsoft\frontend\web\hw1\scss\features.scss:26:in `phones'
-D:\restartsoft\frontend\web\hw1\scss\features.scss:26
+D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\features.scss:26:in `phones'
+D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\features.scss:26
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 26 of D:\restartsoft\frontend\web\hw1\scss\features.scss, in `phones'\A         from line 26 of D:\restartsoft\frontend\web\hw1\scss\features.scss\A \A 21:     color: $gray-color;\A 22:     font-size: $baseFontSize;\A 23:     font-weight: 400;\A 24:     line-height: normal;\A 25: \A 26:     @include phones {\A 27:         max-width: 95%;    \A 28:     }\A 29: }\A 30: \A 31: .features__list {"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 26 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\features.scss, in `phones'\A         from line 26 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\features.scss\A \A 21:     color: $gray-color;\A 22:     font-size: $baseFontSize;\A 23:     font-weight: 400;\A 24:     line-height: normal;\A 25: \A 26:     @include phones {\A 27:         max-width: 95%;    \A 28:     }\A 29: }\A 30: \A 31: .features__list {"; }

@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 8 of D:\restartsoft\frontend\web\hw1\scss\feature.scss, in `phones'
-        from line 8 of D:\restartsoft\frontend\web\hw1\scss\feature.scss
+        on line 8 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\feature.scss, in `phones'
+        from line 8 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\feature.scss
 
 3: .feature {
 4:     display: flex;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'phones'.
 13:         }
 
 Backtrace:
-D:\restartsoft\frontend\web\hw1\scss\feature.scss:8:in `phones'
-D:\restartsoft\frontend\web\hw1\scss\feature.scss:8
+D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\feature.scss:8:in `phones'
+D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\feature.scss:8
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 8 of D:\restartsoft\frontend\web\hw1\scss\feature.scss, in `phones'\A         from line 8 of D:\restartsoft\frontend\web\hw1\scss\feature.scss\A \A 3: .feature {\A 4:     display: flex;\A 5:     flex-direction: column;\A 6:     align-items: center;\A 7:     \A 8:     @include phones {\A 9:         flex-direction: row;\A 10:         margin-bottom: 31px;\A 11:         &:last-child {\A 12:             margin-bottom: 0;\A 13:         }"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 8 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\feature.scss, in `phones'\A         from line 8 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\feature.scss\A \A 3: .feature {\A 4:     display: flex;\A 5:     flex-direction: column;\A 6:     align-items: center;\A 7:     \A 8:     @include phones {\A 9:         flex-direction: row;\A 10:         margin-bottom: 31px;\A 11:         &:last-child {\A 12:             margin-bottom: 0;\A 13:         }"; }

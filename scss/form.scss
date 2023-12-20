@@ -184,7 +184,8 @@
     &::after {
         display: none;
         content: "";
-        background: url("../img/checkmark.png");
+        // background: url("../img/checkmark.png");
+        background-image: url("../sprite.svg#checkmark");
         width: rem(10px);
         height: rem(8px);
         overflow: hidden;

@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 9 of D:\restartsoft\frontend\web\hw1\scss\preview.scss, in `tablets'
-        from line 9 of D:\restartsoft\frontend\web\hw1\scss\preview.scss
+        on line 9 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\preview.scss, in `tablets'
+        from line 9 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\preview.scss
 
 4:     flex-direction: column;
 5:     justify-content: center;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'tablets'.
 14:         flex-direction: column;
 
 Backtrace:
-D:\restartsoft\frontend\web\hw1\scss\preview.scss:9:in `tablets'
-D:\restartsoft\frontend\web\hw1\scss\preview.scss:9
+D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\preview.scss:9:in `tablets'
+D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\preview.scss:9
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of D:\restartsoft\frontend\web\hw1\scss\preview.scss, in `tablets'\A         from line 9 of D:\restartsoft\frontend\web\hw1\scss\preview.scss\A \A 4:     flex-direction: column;\A 5:     justify-content: center;\A 6:     padding-top: rem(36px);\A 7:     width: 52%;\A 8: \A 9:     @include tablets {\A 10:         padding: rem(50px);\A 11:         width: 100%;\A 12:         flex: 1;\A 13:         display: flex;\A 14:         flex-direction: column;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\preview.scss, in `tablets'\A         from line 9 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\preview.scss\A \A 4:     flex-direction: column;\A 5:     justify-content: center;\A 6:     padding-top: rem(36px);\A 7:     width: 52%;\A 8: \A 9:     @include tablets {\A 10:         padding: rem(50px);\A 11:         width: 100%;\A 12:         flex: 1;\A 13:         display: flex;\A 14:         flex-direction: column;"; }
