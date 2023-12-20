@@ -104,7 +104,8 @@ section {
   justify-content: space-between;
   padding: 1.3333333333rem 0; }
   .header__container .logo {
-    flex-shrink: 0; }
+    flex-shrink: 0;
+    fill: #fff; }
   .header__container .contacts {
     padding-top: 0.5555555556rem; }
   @media screen and (max-width: 768px) {
@@ -141,7 +142,7 @@ section {
   padding-bottom: 0.1111111111rem; }
   .contacts__phone::before {
     content: "";
-    background: url(../img/phone.png);
+    background-image: url("../sprite.svg#phone");
     width: 0.7222222222rem;
     height: 0.8333333333rem;
     margin-right: 0.2777777778rem; }
@@ -236,6 +237,9 @@ section {
   align-items: center;
   margin-right: 0.6111111111rem; }
 
+.marketing__icon {
+  fill: #fff; }
+
 .marketing__text {
   max-width: 5rem; }
 
@@ -258,6 +262,9 @@ section {
   height: 7rem;
   background: #F2F5F4;
   border-radius: 50%; }
+
+.feature__icon {
+  fill: #000; }
 
 .feature__content {
   text-align: center; }

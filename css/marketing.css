@@ -24,5 +24,8 @@
   align-items: center;
   margin-right: 0.6111111111rem; }
 
+.marketing__icon {
+  fill: #fff; }
+
 .marketing__text {
   max-width: 5rem; }

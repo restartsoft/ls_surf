@@ -8,7 +8,7 @@
   padding-bottom: rem(2px); }
   .contacts__phone::before {
     content: "";
-    background: url(../img/phone.png);
+    background-image: url("../sprite.svg#phone");
     width: rem(13px);
     height: rem(15px);
     margin-right: rem(5px); }
