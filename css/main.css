@@ -142,7 +142,7 @@ section {
   padding-bottom: 0.1111111111rem; }
   .contacts__phone::before {
     content: "";
-    background-image: url("../sprite.svg#phone");
+    background-image: url("../sprites/phone.svg#phone");
     width: 0.7222222222rem;
     height: 0.8333333333rem;
     margin-right: 0.2777777778rem; }
@@ -603,7 +603,7 @@ section {
   .form__checkbox-square::after {
     display: none;
     content: "";
-    background-image: url("../sprite.svg#checkmark");
+    background-image: url("../sprites/checkmark.svg#checkmark");
     width: 0.5555555556rem;
     height: 0.4444444444rem;
     overflow: hidden; }
