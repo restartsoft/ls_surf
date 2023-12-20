@@ -329,7 +329,7 @@ section {
       content: "";
       width: 3.7222222222rem;
       height: 1.1666666667rem;
-      background: url("../img/2204.png");
+      background-image: url("../sprites/decor.svg#decor");
       left: -3.2222222222rem;
       top: 3.2222222222rem; }
       @media screen and (max-width: 768px) {
@@ -340,7 +340,7 @@ section {
       content: "";
       width: 3.7222222222rem;
       height: 1.1666666667rem;
-      background: url("../img/2203.png");
+      background-image: url("../sprites/decor.svg#decor");
       right: -3.2222222222rem;
       top: 3.2222222222rem; }
       @media screen and (max-width: 768px) {
