@@ -1,0 +1,12 @@
+@import "./var.scss";
+
+.shop {
+    background-color: $lightgreen-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shop__container {
+    justify-content: center;
+}

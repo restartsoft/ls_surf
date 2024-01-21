@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 32 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\reviews.scss, in `phones'
-        from line 32 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\reviews.scss
+        on line 32 of D:\restartsoft\frontend\web\hw1\scss\reviews.scss, in `phones'
+        from line 32 of D:\restartsoft\frontend\web\hw1\scss\reviews.scss
 
 27: .reviews__user-icon {
 28:     width: rem(74px);
@@ -16,8 +16,8 @@ Error: Undefined mixin 'phones'.
 37: 
 
 Backtrace:
-D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\reviews.scss:32:in `phones'
-D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\reviews.scss:32
+D:\restartsoft\frontend\web\hw1\scss\reviews.scss:32:in `phones'
+D:\restartsoft\frontend\web\hw1\scss\reviews.scss:32
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 32 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\reviews.scss, in `phones'\A         from line 32 of D:\restartsoft\frontend\loftschool\surf\ls_surf\scss\reviews.scss\A \A 27: .reviews__user-icon {\A 28:     width: rem(74px);\A 29:     height: rem(74px);\A 30:     border-radius: 50%;\A 31: \A 32:     @include phones {\A 33:         width: rem(64px);\A 34:         height: rem(64px);\A 35:     }\A 36: }\A 37: "; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 32 of D:\restartsoft\frontend\web\hw1\scss\reviews.scss, in `phones'\A         from line 32 of D:\restartsoft\frontend\web\hw1\scss\reviews.scss\A \A 27: .reviews__user-icon {\A 28:     width: rem(74px);\A 29:     height: rem(74px);\A 30:     border-radius: 50%;\A 31: \A 32:     @include phones {\A 33:         width: rem(64px);\A 34:         height: rem(64px);\A 35:     }\A 36: }\A 37: "; }

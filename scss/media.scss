@@ -4,6 +4,12 @@
     @return $px / $baseFontSize + 0rem;
 }
 
+@mixin laptops {
+    @media screen and (max-width: $laptops) {
+        @content;
+    }
+}
+
 @mixin tablets {
     @media screen and (max-width: $tablets) {
         @content;

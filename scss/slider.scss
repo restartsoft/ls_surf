@@ -1,0 +1,138 @@
+@import "./var.scss";
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__container {
+    display: flex;
+    overflow: hidden;
+}
+
+.slider__list {
+    display: flex;
+    position: relative;
+    width: 100%;
+    right: 0px;   
+}
+
+.slider__item {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    padding: rem(52px) rem(29px);
+
+    @include tablets {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.slider__goods {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    background: url("../sprites/shop.svg#shop") center/contain no-repeat;
+    overflow: hidden;
+
+    @include tablets {
+        width: 60%;
+    }
+}
+
+.slider__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: rem(70px);
+
+    @include tablets {
+        padding-left: 0;
+        align-items: center;
+    }
+}
+
+.slider__menu {
+    
+    @include tablets {
+        display: none;
+    }
+}
+
+.slider__dropdown {
+    position: relative;
+    width: rem(91px);
+    height: rem(91px);
+
+    &:hover {
+        .dropdown {
+            display: block;
+        }
+    }
+}
+
+.slider__header {
+    color: $black-color;
+    font-size: rem(36px);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: rem(51px) 0 rem(24px);
+}
+
+.slider__descr {
+    padding: 0 rem(2px) rem(24px);
+
+    @include tablets {
+        text-align: center;
+    }
+}
+
+.slider__parameters {
+    display: flex;
+    padding-bottom: rem(24px);
+}
+
+.slider__parameter {
+    margin-right: rem(52px);
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.slider__parameter-value {
+    color: #000;
+    font-weight: 700;
+}
+
+.slider__bottom {
+    display: flex;
+
+    @include laptops {
+        flex-direction: column;
+    }
+
+    @include tablets {
+        flex-direction: row;
+    }
+}
+
+.slider__price {
+    color: #151515;
+    font-size: rem(60px);
+    font-weight: 300;
+    line-height: rem(60px);
+    text-transform: uppercase;
+    margin-right: rem(28px);
+    flex: 1;
+
+    @include phones {
+        font-size: rem(48px);
+        font-weight: 300;
+        line-height: rem(48px);
+        margin-right: rem(12px);
+    }
+}
