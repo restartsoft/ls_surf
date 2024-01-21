@@ -1,0 +1,12 @@
+
+.hamburger {
+    display: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.hamburger__icon {
+    fill: #fff;
+}

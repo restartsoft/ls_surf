@@ -1,0 +1,30 @@
+.fullscreen-menu {
+    display: none;
+    background-color: #333537;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.fullscreen-menu-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen-menu__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.fullscreen-menu__icon {
+    fill: #fff;
+    opacity: 0.7;
+}
