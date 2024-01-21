@@ -146,7 +146,7 @@
         <section class="shop">
             <div class="container shop__container">
                 <div class="slider">
-                    <a href="#" class="slider__link">
+                    <a href="#" class="slider__link" id="slider-leftBtn">
                         <svg class="slider__link-icon" width="24" height="40" viewBox="0 0 24 40" fill="none">
                             <use xlink:href="./sprites/main.svg#left_arrow"></use>
                         </svg>
@@ -263,12 +263,80 @@
                                     <img src="./img/shop_surf.png" alt="shop_surf">
                                 </div>
                                 <div class="slider__content">
-                                    <div class="slider__specification">
-                                        <div class="specification-btn">
-                                            <svg class="specification-btn__icon" width="38" height="38" viewBox="0 0 38 38">
-                                                <use xlink:href="./sprites/main.svg#arrows"></use>
-                                            </svg>
-                                            <div class="specification-btn__text">Параметры</div>
+                                    <div class="slider__menu">
+                                        <div class="slider__dropdown">
+                                            <div class="slider__btn">
+                                                <svg class="slider__btn-icon" width="38" height="38" viewBox="0 0 38 38">
+                                                    <use xlink:href="./sprites/main.svg#arrows"></use>
+                                                </svg>
+                                                <div class="slider__btn-text">Параметры</div>
+                                            </div>
+                                            <div class="dropdown">
+                                                <div class="dropdown__rectangle">
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="24" height="15"
+                                                                viewBox="0 0 24 15">
+                                                                <use xlink:href="./sprites/main.svg#property_lenght"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Длина доски</span>
+                                                            <span class="dropdown__value">от 2,5 м</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="28" height="28"
+                                                                viewBox="0 0 28 28">
+                                                                <use xlink:href="./sprites/main.svg#property_width"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Ширина доски</span>
+                                                            <span class="dropdown__value">от 40 см</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="24" height="24"
+                                                                viewBox="0 0 24 24">
+                                                                <use xlink:href="./sprites/main.svg#property_thickness">
+                                                                </use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Толщина</span>
+                                                            <span class="dropdown__value">8 см</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="32" height="32"
+                                                                viewBox="0 0 32 32">
+                                                                <use xlink:href="./sprites/main.svg#property_lifetime">
+                                                                </use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Срок службы</span>
+                                                            <span class="dropdown__value">5 лет</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="24" height="24"
+                                                                viewBox="0 0 24 24">
+                                                                <use xlink:href="./sprites/main.svg#property_weight"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Вес</span>
+                                                            <span class="dropdown__value">7-8 кг</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h2 class="slider__header">Лонгборд 2.0</h2>
@@ -300,12 +368,80 @@
                                     <img src="./img/shop_surf.png" alt="shop_surf">
                                 </div>
                                 <div class="slider__content">
-                                    <div class="slider__specification">
-                                        <div class="specification-btn">
-                                            <svg class="specification-btn__icon" width="38" height="38" viewBox="0 0 38 38">
-                                                <use xlink:href="./sprites/main.svg#arrows"></use>
-                                            </svg>
-                                            <div class="specification-btn__text">Параметры</div>
+                                    <div class="slider__menu">
+                                        <div class="slider__dropdown">
+                                            <div class="slider__btn">
+                                                <svg class="slider__btn-icon" width="38" height="38" viewBox="0 0 38 38">
+                                                    <use xlink:href="./sprites/main.svg#arrows"></use>
+                                                </svg>
+                                                <div class="slider__btn-text">Параметры</div>
+                                            </div>
+                                            <div class="dropdown">
+                                                <div class="dropdown__rectangle">
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="24" height="15"
+                                                                viewBox="0 0 24 15">
+                                                                <use xlink:href="./sprites/main.svg#property_lenght"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Длина доски</span>
+                                                            <span class="dropdown__value">от 2,5 м</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="28" height="28"
+                                                                viewBox="0 0 28 28">
+                                                                <use xlink:href="./sprites/main.svg#property_width"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Ширина доски</span>
+                                                            <span class="dropdown__value">от 40 см</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="24" height="24"
+                                                                viewBox="0 0 24 24">
+                                                                <use xlink:href="./sprites/main.svg#property_thickness">
+                                                                </use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Толщина</span>
+                                                            <span class="dropdown__value">8 см</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="32" height="32"
+                                                                viewBox="0 0 32 32">
+                                                                <use xlink:href="./sprites/main.svg#property_lifetime">
+                                                                </use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Срок службы</span>
+                                                            <span class="dropdown__value">5 лет</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="24" height="24"
+                                                                viewBox="0 0 24 24">
+                                                                <use xlink:href="./sprites/main.svg#property_weight"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Вес</span>
+                                                            <span class="dropdown__value">7-8 кг</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h2 class="slider__header">Лонгборд 2.0</h2>
@@ -337,12 +473,80 @@
                                     <img src="./img/shop_surf.png" alt="shop_surf">
                                 </div>
                                 <div class="slider__content">
-                                    <div class="slider__specification">
-                                        <div class="specification-btn">
-                                            <svg class="specification-btn__icon" width="38" height="38" viewBox="0 0 38 38">
-                                                <use xlink:href="./sprites/main.svg#arrows"></use>
-                                            </svg>
-                                            <div class="specification-btn__text">Параметры</div>
+                                    <div class="slider__menu">
+                                        <div class="slider__dropdown">
+                                            <div class="slider__btn">
+                                                <svg class="slider__btn-icon" width="38" height="38" viewBox="0 0 38 38">
+                                                    <use xlink:href="./sprites/main.svg#arrows"></use>
+                                                </svg>
+                                                <div class="slider__btn-text">Параметры</div>
+                                            </div>
+                                            <div class="dropdown">
+                                                <div class="dropdown__rectangle">
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="24" height="15"
+                                                                viewBox="0 0 24 15">
+                                                                <use xlink:href="./sprites/main.svg#property_lenght"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Длина доски</span>
+                                                            <span class="dropdown__value">от 2,5 м</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="28" height="28"
+                                                                viewBox="0 0 28 28">
+                                                                <use xlink:href="./sprites/main.svg#property_width"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Ширина доски</span>
+                                                            <span class="dropdown__value">от 40 см</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="24" height="24"
+                                                                viewBox="0 0 24 24">
+                                                                <use xlink:href="./sprites/main.svg#property_thickness">
+                                                                </use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Толщина</span>
+                                                            <span class="dropdown__value">8 см</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="32" height="32"
+                                                                viewBox="0 0 32 32">
+                                                                <use xlink:href="./sprites/main.svg#property_lifetime">
+                                                                </use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Срок службы</span>
+                                                            <span class="dropdown__value">5 лет</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown__property">
+                                                        <div class="dropdown__icon">
+                                                            <svg class="dropdown__svg" width="24" height="24"
+                                                                viewBox="0 0 24 24">
+                                                                <use xlink:href="./sprites/main.svg#property_weight"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="dropdown__unit">
+                                                            <span class="dropdown__key">Вес</span>
+                                                            <span class="dropdown__value">7-8 кг</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h2 class="slider__header">Лонгборд 2.0</h2>
@@ -371,7 +575,7 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="#" class="slider__link">
+                    <a href="#" class="slider__link" id="slider-rightBtn">
                         <svg class="slider__link-icon" width="24" height="40" viewBox="0 0 24 40" fill="none">
                             <use xlink:href="./sprites/main.svg#right_arrow"></use>
                         </svg>
@@ -422,7 +626,7 @@
                         <div class="form__row">
                             <div class="form__element form__element-half">
                                 <div class="form__element-name">Имя</div>
-                                <input type="text" class="form__input-text">
+                                <input type="text" class="form__input-text" id="form-name">
                             </div>
                             <div class="form__element form__element-half">
                                 <div class="form__element-name">Телефон</div>
@@ -464,14 +668,14 @@
                         <div class="form__row-left-position">
                             <label>
                                 <div class="form__radiobutton">
-                                    <input type="radio" name="payment" class="form__input-radio">
+                                    <input type="radio" name="payment" class="form__input-radio" value="cash">
                                     <div class="form__radiobutton-ellipse"></div>
                                     <div class="form__radiobutton-text">Оплата наличными</div>
                                 </div>
                             </label>
                             <label>
                                 <div class="form__radiobutton">
-                                    <input type="radio" name="payment" class="form__input-radio">
+                                    <input type="radio" name="payment" class="form__input-radio" value="card">
                                     <div class="form__radiobutton-ellipse"></div>
                                     <div class="form__radiobutton-text">Оплата картой</div>
                                 </div>
@@ -527,6 +731,8 @@
             </nav>
         </div>
     </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

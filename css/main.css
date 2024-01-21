@@ -24,6 +24,7 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 .body-noscroll {
+  height: 100%;
   overflow: hidden; }
 
 a {
@@ -417,7 +418,8 @@ section {
   display: flex;
   position: relative;
   width: 100%;
-  right: 0px; }
+  right: 0px;
+  transition: 0.2s; }
 
 .slider__item {
   display: flex;
