@@ -57,12 +57,63 @@ $(document).ready(() => {
     });
 
     $(window).on("resize", function () {
-        
+
         let sliderWidth = slider.width();
         let curSlide = sliderItems.filter("#currentSlide");
         let curIndex = sliderItems.index(curSlide);
 
         slider.css("right", `${sliderWidth * curIndex}px`);
     });
+
+});
+
+//team accordion
+$(document).ready(() => {
+    const currentDescr = -1;
+    const titleList = $(".human__title-text");
+    const wrapperList = $(".human__wrapper");
+    const descrList = $(".human__descr");
+
+    titleList.on("click", e => {
+        let curTitle = e.target;
+        let curIndex = titleList.index(curTitle);
+
+        if ($(curTitle).is("#curTitle")) {
+            CloseWrap(curTitle, curIndex);
+        }
+        else {
+            let filterTitle = titleList.filter("#curTitle");
+            if (filterTitle.length != 0)
+            {
+                let filterIndex = titleList.index(filterTitle);
+                CloseWrap(filterTitle, filterIndex);   
+            }
+
+            OpenWrap(curTitle, curIndex);
+        }
+    });
+
+    function OpenWrap(curTitle, curIndex) {
+        let curWrap = wrapperList[curIndex];
+        let curDescr = descrList[curIndex];
+        let curDescrHeight = $(curDescr).height();
+
+        $(curTitle).next().toggleClass("rotate-icon");
+        $(curTitle).attr("id", "curTitle");
+        $(curWrap).css({
+            "height": `${curDescrHeight}px`,
+        })
+    }
+
+    function CloseWrap(curTitle, curIndex) {
+        let curWrap = wrapperList[curIndex];
+        
+        $(curTitle).next().removeClass("rotate-icon");
+        $(curTitle).removeAttr("id");
+        $(curWrap).css({
+            "height": "0px",
+        })
+    }
+
 
 });

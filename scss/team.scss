@@ -1,0 +1,19 @@
+.team__container {
+    justify-content: center;
+    align-items: center;
+}
+
+.team__title {
+    margin-bottom: 53px;
+}
+
+.team__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.team__item {
+    width: calc(100% / 4 - 15px);
+}

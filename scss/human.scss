@@ -1,0 +1,69 @@
+@import "./var.scss";
+
+.human {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $black-color;
+    height: 454px;
+}
+
+.human__avatar {
+    max-width: 220px;
+    max-height: 290px;
+    overflow: hidden;
+}
+
+.human__content {
+    text-align: center;
+}
+
+.human__title {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 21px;
+    margin-bottom: 8px;
+}
+
+.human__title-text {
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: rem(4px);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.human__title-icon {
+    fill: #292929;
+    transition: 0.4s;
+}
+
+.rotate-icon {
+    transform: rotate(180deg);
+    transition: 0.4s;
+}
+
+.human__wrapper {
+    height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.human__descr {
+    
+}
+
+.human__profession {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.human__text {
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 300;    
+    color: $gray-color;
+}
