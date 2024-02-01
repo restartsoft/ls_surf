@@ -69,7 +69,6 @@ $(document).ready(() => {
 
 //team accordion
 $(document).ready(() => {
-    const currentDescr = -1;
     const titleList = $(".human__title-text");
     const wrapperList = $(".human__wrapper");
     const descrList = $(".human__descr");
