@@ -5,6 +5,10 @@
 
 .team__title {
     margin-bottom: 53px;
+
+    @include tablets {
+        margin-bottom: 33px;
+    }
 }
 
 .team__list {

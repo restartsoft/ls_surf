@@ -411,6 +411,9 @@ section {
 
 .team__title {
   margin-bottom: 53px; }
+  @media screen and (max-width: 768px) {
+    .team__title {
+      margin-bottom: 33px; } }
 
 .team__list {
   display: flex;
@@ -467,6 +470,7 @@ section {
   margin-bottom: 8px; }
   @media screen and (max-width: 768px) {
     .human__title {
+      margin-top: 0;
       margin-bottom: 15px; } }
 
 .human__title-text {

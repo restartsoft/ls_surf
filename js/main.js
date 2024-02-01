@@ -75,6 +75,7 @@ $(document).ready(() => {
     const descrList = $(".human__descr");
 
     titleList.on("click", e => {
+
         let curTitle = e.target;
         let curIndex = titleList.index(curTitle);
 
