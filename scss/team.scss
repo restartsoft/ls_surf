@@ -12,8 +12,32 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
+
+    @include tablets {
+        flex-direction: column;
+        width: 80%;
+    }
+}
+
+.team-desktop {
+    
+    @include tablets {
+        display: none;
+    }
+}
+
+.team-mobile {
+    display: none;
+
+    @include tablets {
+        display: flex;
+    }
 }
 
 .team__item {
     width: calc(100% / 4 - 15px);
+
+    @include tablets {
+        width: 100%;
+    }
 }

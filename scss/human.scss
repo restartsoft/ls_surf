@@ -6,12 +6,20 @@
     align-items: center;
     color: $black-color;
     height: 454px;
+
+    @include tablets {
+        height: auto;
+    }
 }
 
 .human__avatar {
-    max-width: 220px;
-    max-height: 290px;
+    display: flex;
+    justify-content: center;
     overflow: hidden;
+
+    @include tablets {
+        margin-bottom: 20px;
+    }
 }
 
 .human__content {
@@ -24,12 +32,17 @@
     align-items: baseline;
     margin-top: 21px;
     margin-bottom: 8px;
+
+    @include tablets {
+        margin-bottom: 15px;
+    }
 }
 
 .human__title-text {
     font-size: 21px;
     font-weight: 700;
     margin-right: rem(4px);
+    white-space: nowrap;
 
     &:hover {
         cursor: pointer;

@@ -691,18 +691,19 @@
         <section class="team">
             <div class="container team__container">
                 <h1 class="surf-title team__title">Команда</h1>
-                <ul class="team__list">
+                <!-- desktop -->
+                <ul class="team__list team-desktop">
                     <li class="team__item human">
                         <div class="human__avatar">
                             <img src="./img/team_boris.png" alt="boris">
                         </div> 
+                        <div class="human__title">
+                            <h4 class="human__title-text">Борис Федорович</h4>
+                            <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
+                                <use xlink:href="./sprites/main.svg#triangle"></use>
+                            </svg>
+                        </div>
                         <div class="human__content">
-                            <div class="human__title">
-                                <h4 class="human__title-text">Борис Федорович</h4>
-                                <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
-                                    <use xlink:href="./sprites/main.svg#triangle"></use>
-                                </svg>
-                            </div>
                             <div class="human__wrapper">
                                 <div class="human__descr">
                                     <div class="human__profession">Главный технолог</div>
@@ -714,14 +715,14 @@
                     <li class="team__item human">
                         <div class="human__avatar">
                             <img src="./img/team_olga.png" alt="olga">
-                        </div> 
+                        </div>
+                        <div class="human__title">
+                            <h4 class="human__title-text">Ольга Невзорова</h4>
+                            <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
+                                <use xlink:href="./sprites/main.svg#triangle"></use>
+                            </svg>
+                        </div>
                         <div class="human__content">
-                            <div class="human__title">
-                                <h4 class="human__title-text">Ольга Невзорова</h4>
-                                <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
-                                    <use xlink:href="./sprites/main.svg#triangle"></use>
-                                </svg>
-                            </div>
                             <div class="human__wrapper">
                                 <div class="human__descr">
                                     <div class="human__profession">Дизайнер</div>
@@ -733,14 +734,14 @@
                     <li class="team__item human">
                         <div class="human__avatar">
                             <img src="./img/team_ingvar.png" alt="ingvar">
-                        </div> 
+                        </div>
+                        <div class="human__title">
+                            <h4 class="human__title-text">Ингвар Нильсон</h4>
+                            <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
+                                <use xlink:href="./sprites/main.svg#triangle"></use>
+                            </svg>
+                        </div>
                         <div class="human__content">
-                            <div class="human__title">
-                                <h4 class="human__title-text">Ингвар Нильсон</h4>
-                                <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
-                                    <use xlink:href="./sprites/main.svg#triangle"></use>
-                                </svg>
-                            </div>
                             <div class="human__wrapper">
                                 <div class="human__descr">
                                     <div class="human__profession">Спортсмен</div>
@@ -753,15 +754,94 @@
                         <div class="human__avatar">
                             <img src="./img/team_ekaterina.png" alt="ekaterina">
                         </div> 
+                        <div class="human__title">
+                            <h4 class="human__title-text">Екатерина Иванова</h4>
+                            <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
+                                <use xlink:href="./sprites/main.svg#triangle"></use>
+                            </svg>
+                        </div>
                         <div class="human__content">
-                            <div class="human__title">
-                                <h4 class="human__title-text">Екатерина Иванова</h4>
-                                <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
-                                    <use xlink:href="./sprites/main.svg#triangle"></use>
-                                </svg>
-                            </div>
                             <div class="human__wrapper">
                                 <div class="human__descr">
+                                    <div class="human__profession">Тестировщик</div>
+                                    <p class="human__text">Отвечает за разработку новых продуктов</p>
+                                </div>
+                            </div>
+                        </div>                           
+                    </li>
+                </ul>
+                <!-- mobile -->
+                <ul class="team__list team-mobile">
+                    <li class="team__item human"> 
+                        <div class="human__title">
+                            <h4 class="human__title-text">Борис Федорович</h4>
+                            <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
+                                <use xlink:href="./sprites/main.svg#triangle"></use>
+                            </svg>
+                        </div>
+                        <div class="human__content">
+                            <div class="human__wrapper">
+                                <div class="human__descr">
+                                    <div class="human__avatar">
+                                        <img src="./img/team_boris.png" alt="boris">
+                                    </div>
+                                    <div class="human__profession">Главный технолог</div>
+                                    <p class="human__text">Отвечает за материалы и разработку досок</p>
+                                </div>
+                            </div>
+                        </div>                           
+                    </li>
+                    <li class="team__item human">
+                        <div class="human__title">
+                            <h4 class="human__title-text">Ольга Невзорова</h4>
+                            <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
+                                <use xlink:href="./sprites/main.svg#triangle"></use>
+                            </svg>
+                        </div>
+                        <div class="human__content">
+                            <div class="human__wrapper">
+                                <div class="human__descr">
+                                    <div class="human__avatar">
+                                        <img src="./img/team_olga.png" alt="olga">
+                                    </div>
+                                    <div class="human__profession">Дизайнер</div>
+                                    <p class="human__text">Создает дизайн серфбордов</p>
+                                </div>
+                            </div>
+                        </div>                           
+                    </li>
+                    <li class="team__item human">
+                        <div class="human__title">
+                            <h4 class="human__title-text">Ингвар Нильсон</h4>
+                            <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
+                                <use xlink:href="./sprites/main.svg#triangle"></use>
+                            </svg>
+                        </div>
+                        <div class="human__content">
+                            <div class="human__wrapper">
+                                <div class="human__descr">
+                                    <div class="human__avatar">
+                                        <img src="./img/team_ingvar.png" alt="ingvar">
+                                    </div>
+                                    <div class="human__profession">Спортсмен</div>
+                                    <p class="human__text">Участвует в разработке серфбордов</p>
+                                </div>
+                            </div>
+                        </div>                           
+                    </li>
+                    <li class="team__item human">
+                        <div class="human__title">
+                            <h4 class="human__title-text">Екатерина Иванова</h4>
+                            <svg class="human__title-icon" width="9" height="8" viewBox="0 0 9 8">
+                                <use xlink:href="./sprites/main.svg#triangle"></use>
+                            </svg>
+                        </div>
+                        <div class="human__content">
+                            <div class="human__wrapper">
+                                <div class="human__descr">
+                                    <div class="human__avatar">
+                                        <img src="./img/team_ekaterina.png" alt="ekaterina">
+                                    </div>
                                     <div class="human__profession">Тестировщик</div>
                                     <p class="human__text">Отвечает за разработку новых продуктов</p>
                                 </div>
