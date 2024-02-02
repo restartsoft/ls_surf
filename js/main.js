@@ -69,17 +69,16 @@ $(document).ready(() => {
 
 //team accordion
 $(document).ready(() => {
-    const titleList = $(".human__title-text");
+    const titleList = $(".human__title");
     const wrapperList = $(".human__wrapper");
     const descrList = $(".human__descr");
 
-    titleList.on("click", e => {
+    titleList.on("click", function(e) {
+        e.preventDefault();
+        let curIndex = titleList.index(this);
 
-        let curTitle = e.target;
-        let curIndex = titleList.index(curTitle);
-
-        if ($(curTitle).is("#curTitle")) {
-            CloseWrap(curTitle, curIndex);
+        if ($(this).is("#curTitle")) {
+            CloseWrap(this, curIndex);
         }
         else {
             let filterTitle = titleList.filter("#curTitle");
@@ -89,7 +88,7 @@ $(document).ready(() => {
                 CloseWrap(filterTitle, filterIndex);   
             }
 
-            OpenWrap(curTitle, curIndex);
+            OpenWrap(this, curIndex);
         }
     });
 
@@ -98,7 +97,7 @@ $(document).ready(() => {
         let curDescr = descrList[curIndex];
         let curDescrHeight = $(curDescr).height();
 
-        $(curTitle).next().toggleClass("rotate-icon");
+        RotateIcon(curTitle);
         $(curTitle).attr("id", "curTitle");
         $(curWrap).css({
             "height": `${curDescrHeight}px`,
@@ -108,11 +107,15 @@ $(document).ready(() => {
     function CloseWrap(curTitle, curIndex) {
         let curWrap = wrapperList[curIndex];
         
-        $(curTitle).next().removeClass("rotate-icon");
+        RotateIcon(curTitle);
         $(curTitle).removeAttr("id");
         $(curWrap).css({
             "height": "0px",
         })
+    }
+
+    function RotateIcon(curTitle) {
+        $(curTitle).find(".human__title-icon").toggleClass("rotate-icon");
     }
 });
 

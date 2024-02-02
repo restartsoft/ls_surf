@@ -503,6 +503,9 @@ section {
   font-size: 18px;
   font-weight: 300;
   color: #666; }
+  @media screen and (max-width: 768px) {
+    .human__text {
+      padding-bottom: 0.4444444444rem; } }
 
 .slider {
   display: flex;
@@ -725,6 +728,9 @@ section {
 .reviews__title {
   text-align: center;
   margin-bottom: 1.7777777778rem; }
+  @media screen and (max-width: 480px) {
+    .reviews__title {
+      margin-bottom: 1.4444444444rem; } }
 
 .reviews__item {
   display: none; }

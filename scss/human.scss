@@ -80,4 +80,8 @@
     font-size: 18px;
     font-weight: 300;    
     color: $gray-color;
+
+    @include tablets {
+        padding-bottom: rem(8px);
+    }
 }
