@@ -114,6 +114,26 @@ $(document).ready(() => {
             "height": "0px",
         })
     }
+});
 
+//reviews paginator
+$(document).ready(() => {
+    const reviewsItems = $(".reviews__item");
+    const reviewsUserLinks = $(".reviews__user-link");
 
+    reviewsUserLinks.on("click", function(e) {
+        e.preventDefault();
+
+        let selectedItem = reviewsItems.filter(".reviews__item-selected");
+        let selectedLink = reviewsUserLinks.filter(".reviews__user-link-selected");
+
+        if (!$(this).is(".reviews__user-link-selected"))
+        {
+            selectedItem.toggleClass("reviews__item-selected");
+            selectedLink.toggleClass("reviews__user-link-selected");
+
+            $(reviewsItems[reviewsUserLinks.index(this)]).toggleClass("reviews__item-selected");
+            $(this).toggleClass("reviews__user-link-selected");
+        }
+    });
 });

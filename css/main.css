@@ -726,6 +726,12 @@ section {
   text-align: center;
   margin-bottom: 1.7777777778rem; }
 
+.reviews__item {
+  display: none; }
+
+.reviews__item-selected {
+  display: flex; }
+
 .reviews__user-list {
   margin-top: 0.8333333333rem;
   display: flex;
@@ -746,7 +752,7 @@ section {
       width: 3.5555555556rem;
       height: 3.5555555556rem; } }
 
-.reviews__user-link:hover .reviews__user-icon {
+.reviews__user-link-selected .reviews__user-icon {
   border: 0.3333333333rem solid #fedb3f; }
 
 .order {
